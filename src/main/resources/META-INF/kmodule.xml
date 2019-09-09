@@ -1,0 +1,11 @@
+<kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <kbase name="ruleUnitOneKB" packages="ruleUnitOne">
+        <ksession name="ruleUnitOne" default="true"/>
+    </kbase>
+    <kbase name="ruleUnitTwoKB" packages="ruleUnitTwo">
+        <ksession name="ruleUnitTwo" default="true"/>
+    </kbase>
+    <kbase name="ruleUnitThreeKB" packages="ruleUnitThree">
+        <ksession name="ruleUnitThree" default="true"/>
+    </kbase>
+</kmodule>

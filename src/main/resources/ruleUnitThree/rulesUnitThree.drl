@@ -1,0 +1,10 @@
+package ruleUnitThree;
+
+import org.kie.kogito.reproducer.model.Person;
+
+rule "Can Drink Lambda Without Modify"
+when
+    $p:Person(age >= 18)
+then
+    $p.setCanDrinkLambda(() -> true);
+end
